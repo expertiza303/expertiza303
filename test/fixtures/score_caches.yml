@@ -19,7 +19,19 @@ sc2:
 
 sc3:
   reviewee_id: <%= Fixtures.identify(:par14) %>
-  score: 95.64
+  score: 80
+  range: "95.64 - 100"
+  object_type: "TeammateReviewResponseMap"
+
+sc3_1:
+  reviewee_id: <%= Fixtures.identify(:par14) %>
+  score: 90
+  range: "95.64 - 100"
+  object_type: "TeammateReviewResponseMap"
+
+sc3_2:
+  reviewee_id: <%= Fixtures.identify(:par14) %>
+  score: 100
   range: "95.64 - 100"
   object_type: "TeammateReviewResponseMap"
 
@@ -28,4 +40,15 @@ sc4:
   score: 100
   range: "100 - 100"
   object_type: "MetareviewResponseMap"
-    
+
+sc4_1:
+  reviewee_id: <%= Fixtures.identify(:par14) %>
+  score: 100
+  range: "100 - 100"
+  object_type: "MetareviewResponseMap"
+
+sc4_2:
+  reviewee_id: <%= Fixtures.identify(:par14) %>
+  score: 100
+  range: "100 - 100"
+  object_type: "MetareviewResponseMap"
